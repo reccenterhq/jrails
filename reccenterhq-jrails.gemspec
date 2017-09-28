@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{newrelic-jrails}
+  s.name = %q{reccenterhq-jrails}
   s.version = "0.8.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.date = %q{2010-08-27}
   s.default_executable = %q{jrails}
   s.description = %q{Using jRails, you can get all of the same default Rails helpers for javascript functionality using the lighter jQuery library.}
-  s.email = %q{brent@newrelic.com}
+  s.email = %q{jerrod@reccenter.com}
   s.executables = ["jrails"]
   s.extra_rdoc_files = [
     "LICENSE",
@@ -33,10 +33,9 @@ Gem::Specification.new do |s|
     "install.rb",
     "lib/tasks/jrails.rake"
   ]
-  s.homepage = %q{http://github.com/newrelic/jrails}
+  s.homepage = %q{http://github.com/reccenterhq/jrails}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubyforge_project = %q{jrails}
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{jRails is a drop-in jQuery replacement for the Rails Prototype/script.aculo.us helpers.}
 
