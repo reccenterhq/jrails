@@ -36,3 +36,4 @@ Gem::Specification.new do |s|
   s.rubygems_version = "2.4.6"
   s.summary = "jRails is a drop-in jQuery replacement for the Rails Prototype/script.aculo.us helpers."
 end
+
